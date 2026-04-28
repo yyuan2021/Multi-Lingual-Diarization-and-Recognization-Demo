@@ -1,0 +1,7 @@
+model,run,best_epoch,best_acc,best_f1,student_ms,best_checkpoint,final_checkpoint
+tdnn_full,1,7,0.6801801801801802,0.7016806722689075,2.459375000325963,dl_model\speechbrain_ablation\checkpoints\tdnn_full_run1_best.pth,dl_model\speechbrain_ablation\checkpoints\tdnn_full_run1_final.pth
+tdnn_full,2,10,0.6463963963963963,0.6652452025586354,2.2006859991233796,dl_model\speechbrain_ablation\checkpoints\tdnn_full_run2_best.pth,dl_model\speechbrain_ablation\checkpoints\tdnn_full_run2_final.pth
+tdnn_full,3,4,0.6756756756756757,0.722007722007722,2.3577969998586923,dl_model\speechbrain_ablation\checkpoints\tdnn_full_run3_best.pth,dl_model\speechbrain_ablation\checkpoints\tdnn_full_run3_final.pth
+cnn,1,5,0.6463963963963963,0.7032136105860113,2.015324999811128,dl_model\speechbrain_ablation\checkpoints\cnn_run1_best.pth,dl_model\speechbrain_ablation\checkpoints\cnn_run1_final.pth
+cnn,2,10,0.6531531531531531,0.7137546468401488,2.0433760003652424,dl_model\speechbrain_ablation\checkpoints\cnn_run2_best.pth,dl_model\speechbrain_ablation\checkpoints\cnn_run2_final.pth
+cnn,3,14,0.6711711711711712,0.7255639097744361,1.8751969991717488,dl_model\speechbrain_ablation\checkpoints\cnn_run3_best.pth,dl_model\speechbrain_ablation\checkpoints\cnn_run3_final.pth

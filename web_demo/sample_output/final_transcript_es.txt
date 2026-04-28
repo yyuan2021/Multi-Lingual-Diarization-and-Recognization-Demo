@@ -1,0 +1,5 @@
+[Speaker 0]:
+Hola, bienvenido al curso de procesamiento de voz.
+
+[Speaker 1]:
+Hola, esta es una demostración de procesamiento de voz multilingüe.

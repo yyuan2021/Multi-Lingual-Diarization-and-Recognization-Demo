@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Speaker Diarization Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Speaker Diarization Demo</h1>
+      <p class="subtitle">Separate speakers, transcribe, and translate audio in one click</p>
+    </header>
+
+    <!-- ── Input card ─────────────────────────────────────────── -->
+    <section class="card" id="inputCard">
+      <h2>Input Audio</h2>
+
+      <div class="btn-row">
+        <button id="recordBtn" class="btn btn-record">&#9210; Start Recording</button>
+        <label class="btn btn-secondary" for="fileInput">&#128193; Upload File</label>
+        <input id="fileInput" type="file" accept="audio/*" hidden />
+        <button id="sampleBtn" class="btn btn-secondary">&#127925; Load Sample</button>
+      </div>
+
+      <div id="recordStatus" class="badge badge-warning hidden">
+        Recording&ensp;<span id="timer">0s</span>
+      </div>
+
+      <div id="originalWrap" class="audio-wrap hidden">
+        <span class="audio-label">Original</span>
+        <audio id="originalPlayer" controls></audio>
+      </div>
+
+      <div class="run-row">
+        <select id="langSelect" class="lang-select">
+          <option value="en" selected>English</option>
+          <option value="zh">Chinese</option>
+          <option value="es">Spanish</option>
+          <option value="fr">French</option>
+          <option value="de">German</option>
+          <option value="ja">Japanese</option>
+        </select>
+        <button id="runBtn" class="btn btn-run" disabled>&#9654; Start Detection </button>
+      </div>
+    </section>
+
+    <!-- ── Processing indicator ──────────────────────────────── -->
+    <div id="progressWrap" class="processing hidden">
+      <div class="processing-spinner"></div>
+      <p>Processing audio&hellip; this may take a several minutes.</p>
+    </div>
+
+    <!-- ── Results ─────────────────────────────────────────────── -->
+    <section id="resultsSection" class="hidden">
+      <div class="results-grid">
+
+        <!-- Speaker 0 -->
+        <div class="card speaker-card" id="spk0Card">
+          <h2><span class="dot dot-blue"></span>Speaker 0</h2>
+          <div class="audio-wrap">
+            <span class="audio-label">Audio</span>
+            <audio id="spk0Player" controls></audio>
+          </div>
+          <div class="field">
+            <label>Transcript</label>
+            <div id="spk0Text" class="textbox"></div>
+          </div>
+          <div class="field">
+            <label>English Translation</label>
+            <div id="spk0Trans" class="textbox textbox-trans"></div>
+          </div>
+        </div>
+
+        <!-- Speaker 1 -->
+        <div class="card speaker-card" id="spk1Card">
+          <h2><span class="dot dot-orange"></span>Speaker 1</h2>
+          <div class="audio-wrap">
+            <span class="audio-label">Audio</span>
+            <audio id="spk1Player" controls></audio>
+          </div>
+          <div class="field">
+            <label>Transcript</label>
+            <div id="spk1Text" class="textbox"></div>
+          </div>
+          <div class="field">
+            <label>English Translation</label>
+            <div id="spk1Trans" class="textbox textbox-trans"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

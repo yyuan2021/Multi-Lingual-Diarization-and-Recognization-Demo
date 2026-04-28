@@ -1,0 +1,5 @@
+[Speaker 0]:
+Hallo, willkommen im Sprachverarbeitungskurs.
+
+[Speaker 1]:
+Hallo, dies ist eine mehrsprachige Sprachverarbeitungsdemo.

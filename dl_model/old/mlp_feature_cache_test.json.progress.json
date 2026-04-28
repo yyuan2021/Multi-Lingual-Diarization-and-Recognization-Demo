@@ -1,0 +1,16 @@
+{
+  "completed_keys": [
+    "/scratch1/shihe/github/EE519_Project/datasets/Corpus/corpus_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/Corpus/adult/audio/test_split/AD09004.wav|2|0|8.3",
+    "/scratch1/shihe/github/EE519_Project/datasets/Corpus/corpus_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/Corpus/adult/audio/test_split/AD09004.wav|2|1|8.62",
+    "/scratch1/shihe/github/EE519_Project/datasets/Corpus/corpus_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/Corpus/children/audio/val_split/CH03009.wav|0|0|0.2",
+    "/scratch1/shihe/github/EE519_Project/datasets/ascend/ascend_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/ascend/audio/train/000002.wav|0|0|1.04",
+    "/scratch1/shihe/github/EE519_Project/datasets/ascend/ascend_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/ascend/audio/train/000003.wav|0|0|4.36",
+    "/scratch1/shihe/github/EE519_Project/datasets/ascend/ascend_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/ascend/audio/validation/000001.wav|0|0|2.62",
+    "/scratch1/shihe/github/EE519_Project/datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json|/scratch1/shihe/github/EE519_Project/datasets/crossfade_insertions/corpus_en_into_ascend_zh/audio/000002_000001.wav|0|0|2.9",
+    "/scratch1/shihe/github/EE519_Project/datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json|/scratch1/shihe/github/EE519_Project/datasets/crossfade_insertions/corpus_hi_into_hinglish_en/audio/000001_100051_GigsEKRBMhvNwolC_0003.wav|0|0|2.44",
+    "/scratch1/shihe/github/EE519_Project/datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json|/scratch1/shihe/github/EE519_Project/datasets/crossfade_insertions/corpus_hi_into_hinglish_en/audio/000006_103085_w5Jyq3XMbb3WwiKQ_0067.wav|0|0|1.54",
+    "/scratch1/shihe/github/EE519_Project/datasets/hinglish/hinglish_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/hinglish/data/train/100051_GigsEKRBMhvNwolC_0000.wav|0|0|1.32",
+    "/scratch1/shihe/github/EE519_Project/datasets/hinglish/hinglish_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/hinglish/data/train/100051_GigsEKRBMhvNwolC_0000.wav|0|1|1.94",
+    "/scratch1/shihe/github/EE519_Project/datasets/hinglish/hinglish_mixed_language.json|/scratch1/shihe/github/EE519_Project/datasets/hinglish/data/train/100051_GigsEKRBMhvNwolC_0000.wav|0|2|2.36"
+  ]
+}

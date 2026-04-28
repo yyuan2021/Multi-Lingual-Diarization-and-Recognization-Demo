@@ -1,0 +1,5 @@
+[Speaker 0]:
+Bonjour, bienvenue au cours de traitement de la parole.
+
+[Speaker 1]:
+Bonjour, ceci est une démonstration de traitement de la parole multilingue.

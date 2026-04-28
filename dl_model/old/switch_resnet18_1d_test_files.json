@@ -1,0 +1,806 @@
+[
+  {
+    "audio_path": "datasets/hinglish/data/train/610265_xMxtQE5iswyTgPDp_0062.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/005928.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/mix/mix_0579.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/010959_550273_urFiEtgL3ZyessbT_0020.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/014727_729654_7FHd0e7O6m8Lh1h1_0042.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/005993_349227_ODtJyqXnjew03ma0_0084.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/858278_NwnULBkDtGk5YQDH_0032.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0091.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/train_split/AD16005.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/train_split/AD41064.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/test_split/AD47005.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/011731_581856_B502D85bz6Q9ClGL_0114.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0303.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_ascend_zh/audio/000015_000014.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/132353_W6ZMSNjdOsqEafcy_0039.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/test_split/AD63060.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/007322.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_hi_into_hinglish_en/audio/001822_681564_AScrUtOeYNw6iRJh_0041.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/003305_210672_0jdhCdy6wPFMjRXl_0014.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_ascend_zh/audio/001256_000934.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/015611_775679_vBBg11f5yXP9zD3Q_0096.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0104.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/016923_848232_ExTHpOShPZuaLWrU_0011.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/015754_781310_hqd6fiJCcldbJWku_0029.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/007881_424296_MnpcwpxrCQObm4rk_0019.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/015520_772743_KcSRhlKicPd6dvJS_0018.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/008278.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/000948.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/hinglish_en_into_corpus_hi/audio/000469_CH05128.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_zh_into_corpus_en/audio/000408_AD41067.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/976811_t4ui2WmNjBa2OlEW_0092.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/005968_349227_ODtJyqXnjew03ma0_0020.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0449.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/children/audio/train_split/CH25089.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/hinglish_en_into_ascend_zh/audio/002936_004345.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/001512_791308_kGQKLyQ1HtnUNL1d_0047.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/test_split/AD63060.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/017652_898307_OkfDZx8UMRSMC8TW_0146.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/019509_991629_qesT00eMGMfCRrpS_0055.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/278951_ZrRFAewtB9ghE37y_0008.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/006262_354092_QSQOcoZj95Pfx3zS_0103.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/224788_3fVFkG8BsUQWCOGS_0020.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0266.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/009726.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/000571_347099_K5BlLYB9ynemLTVa_0044.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0366.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/485176_VxquLalRIRShu5BD_0150.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/007886_424296_MnpcwpxrCQObm4rk_0029.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/356615_nxwMVpvFEMvwUlff_0093.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/014946_739673_anB6b5ibUqmoGqhS_0029.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/019537_991629_qesT00eMGMfCRrpS_0093.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/758447_sz9GwjqJlktKoZEO_0042.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/693909_KVjzph1lN8faWkTM_0037.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/train_split/AD26093.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/018742_958028_ggxxu1ZZEGAwT62X_0088.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/012960_648590_eVGKFYqaM3Z8aA8p_0070.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/014996_740014_NkBCPRq4Uo2w1lxv_0067.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/005643.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/014030_690775_xmFEAmhKJ4rwfcHb_0028.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/009569_502032_Ff3RHdCeqBTXrtOT_0078.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_zh_into_hinglish_en/audio/000716_265143_NP0ELnqrEkkQjRUb_0030.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/354092_QSQOcoZj95Pfx3zS_0071.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/children/audio/train_split/CH21085.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/653388_te02d5mOGHJYsAhP_0023.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/train_split/AD09035.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0117.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/019103_972699_yWc9lDlV5mMRgPJz_0075.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0520.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/test_split/AD36042.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/694759_diuP9RZuhpxPyk5j_0043.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0016.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/002853_180696_GSUP9H9fbPzTvUJf_0077.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/009407_494949_LJr6JebNKuSwq48U_0014.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/children/audio/train_split/CH24091.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/children/audio/test_split/CH25095.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0313.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/018070_927363_T5IdpDlSH77qWDK3_0069.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/006343.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/006538_367317_JcIC6WbbbJsStLkN_0043.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/train_split/AD34013.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0599.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/009614_503577_Ym6wFcvsJRHzm4yq_0062.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0304.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/hinglish_en_into_corpus_hi/audio/001598_CH22008.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/009346_491993_TIbfwCAMwCv4UC9o_0093.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/hinglish_en_into_corpus_hi/audio/002040_AD40045.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/test_split/AD36007.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/004397_277289_Z9cD5IbaDytwMt6R_0022.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/hinglish_en_into_corpus_hi/audio/002270_AD63116.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/children/audio/train_split/CH26068.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/018390_945728_DBI6HIgiBL3G9iFP_0054.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_hi_into_hinglish_en/audio/000295_142970_DP5j8CLDeL6HHHSX_0005.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/014553_723701_0RDwoEVIUAhVPibN_0033.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/hinglish_en_into_ascend_zh/audio/001848_001810.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/539098_KMzwmY5Mi9f00Z4P_0105.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/017292_886726_zWvAwht3UUenzaCR_0035.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/541637_RkpRYL8GkIi0QqZH_0053.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0388.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/train_split/AD28025.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/398648_0ypaM0qtYiXXTroM_0019.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/008340_445718_H6Z2BkcyVtiuiN7A_0054.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/016853_845204_ro3PqTP3mQxugF1t_0006.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/011797_584991_1ijxO93RTIJh2Rzv_0038.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0485.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0487.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_en_into_hinglish_hi/audio/018351_939326_Yk9pbdfXH2wEGgPa_0056.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/018084_929718_LV1zfGv4HBCETurF_0021.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/002345_164173_UciGI22ZXiZMUhaK_0083.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/ascend/audio/test/001301.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0490.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/TTS/mix/mix_0186.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/917397_nr1ALoYSLHCrjryL_0022.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/911395_OGjhAtt9YDtQcgqz_0048.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/009135_486594_EW2UqlYqc80VUwQU_0028.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/ascend/audio/test/000251.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_ascend_zh/audio/001503_001127.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/test_split/AD23086.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/004835.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/Corpus/adult/audio/train_split/AD36115.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/010781_541916_5DpOB0LmjVO8tse5_0010.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/children/audio/val_split/CH23064.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/013071_653388_te02d5mOGHJYsAhP_0059.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/Corpus/children/audio/test_split/CH25020.wav",
+    "json_path": "datasets/Corpus/corpus_mixed_language.json",
+    "dataset": "corpus",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/016832_843836_rgUk9oD9G1Unk4l8_0028.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/006069_349774_SRX8OfxyGfJKgki8_0138.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/016755_837603_iFfKg42IeXRfIcFc_0017.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/hinglish/data/train/223996_2kZ7laxQAUL70DVv_0047.wav",
+    "json_path": "datasets/hinglish/hinglish_mixed_language.json",
+    "dataset": "hinglish",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/004138_256282_3Nju54LxV4GI22BP_0032.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/TTS/codeswitch/codeswitch_0176.wav",
+    "json_path": "datasets/TTS/whisper_segment_TTS.json",
+    "dataset": "tts",
+    "is_switch": true
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/002485_171660_Nyg40ltVEe5vTTsS_0053.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_zh_into_hinglish_en/audio/001197_442328_U754Rb9E1c5neLAP_0053.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/ascend_zh_into_hinglish_en/audio/000272_136325_9qNmHPrUpNLAykHf_0005.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/crossfade_insertions/corpus_en_into_hinglish_hi/audio/008463_451648_YjJMU3hOvRCQW04s_0038.wav",
+    "json_path": "datasets/crossfade_insertions/crossfade_insertions_mixed_language_cleaned.json",
+    "dataset": "crossfade_insertions",
+    "is_switch": false
+  },
+  {
+    "audio_path": "datasets/ascend/audio/train/006341.wav",
+    "json_path": "datasets/ascend/ascend_mixed_language.json",
+    "dataset": "ascend",
+    "is_switch": true
+  }
+]

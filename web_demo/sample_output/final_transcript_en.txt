@@ -1,0 +1,5 @@
+[Speaker 0]:
+Hello, welcome to the speech processing course.
+
+[Speaker 1]:
+Hello, this is a multi-lingual speech processing demo.

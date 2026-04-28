@@ -1,0 +1,2 @@
+model,input_type,raw_same_count,raw_switch_count,balanced_per_class,train_records,val_records,test_records,best_epoch,best_val_loss,best_val_acc,test_loss,test_acc
+resnet18_1d_siamese,"pair_embedding_[B,2,512]",442,1673,66,1480,132,134,8,0.32220082481702167,0.8939393939393939,0.40927693470200494,0.8432835820895522

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python demo/demo_pipeline.py samples/mixed.wav)",
+      "Bash(pip install *)",
+      "Bash(python3 -c \"from pathlib import Path; p = Path\\('/Users/linda/Desktop/EE519_Project_Demo/web_demo/backend.py'\\).resolve\\(\\).parent; print\\('BASE_DIR:', p\\); print\\('sample_output dir:', p / 'sample_output'\\); print\\('file exists:', \\(p / 'sample_output' / '_prepared_8k.wav'\\).exists\\(\\)\\)\")"
+    ],
+    "additionalDirectories": [
+      "/Users/linda/Desktop/EE519_Project_Demo/web_demo"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+(ee519mlp) PS D:\Github\EE519_Project> python .\dl_model\simplecnn\eval_csv.py --input dl_model\simplecnn\result.csv
+include train full data
+===== Overall =====
+Accuracy: 0.8934 (80655/90279)
+
+===== Per-class Accuracy =====
+code_switch  | acc=0.9875 (4417/4473)
+mix          | acc=0.8885 (76238/85806)
+
+train log
+049 | train_loss=0.1966 train_acc=0.9713 | test_loss=0.2580 test_acc=0.9304 | lr=0.000300
